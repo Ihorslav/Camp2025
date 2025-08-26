@@ -1,0 +1,13 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.65.1:27341 - "GET /docs HTTP/1.1" 200 OK
+INFO:     192.168.65.1:27341 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     192.168.65.1:62967 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.65.1:62653 - "GET /version HTTP/1.1" 200 OK
+INFO:     192.168.65.1:38999 - "GET /version HTTP/1.1" 200 OK
+INFO:     192.168.65.1:45910 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.65.1:58724 - "GET /version HTTP/1.1" 200 OK
+INFO:     192.168.65.1:33567 - "POST /predict-array HTTP/1.1" 200 OK
+INFO:     192.168.65.1:40478 - "POST /predict-image HTTP/1.1" 200 OK
